@@ -9,6 +9,7 @@ void main() {
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   ThemeHelper().changeTheme('primary');
   runApp(MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
